@@ -93,7 +93,7 @@ function insertStudent($lastname, $firstname, $email, $password, $idOptions) {
 * INSERT VALEUR DE TEST
 */
 function insertTest() {
-    $result = insertStudent('insertTestLastName', 'insertTestFirstName', 'test.lucas@test.com', 'France2025!!!', 1);
+    $result = insertStudent('insertTestLastName', 'insertTestFirstName', 'test.lucdas@test.com', 'France2025!!!', 1);
     return $result;
 }
 
@@ -114,6 +114,12 @@ function deleteStudent($id) {
     return "Successfully deleted student with ID ".$id;
 }
 
+// /**
+//  * SE CONNECTER
+//  * @param email
+//  * @param password
+//  */
+// function login($email,)
 
 // IF DU SERVEUR
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {

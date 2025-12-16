@@ -9,7 +9,7 @@ require_once __DIR__ . '/queries.php';
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Test Queries Commandes</title>
+    <title>API</title>
     <style>
         body { font-family: Arial; margin: 20px; }
         form { margin-bottom: 20px; padding: 10px; border: 1px solid #ccc; }
